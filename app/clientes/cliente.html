@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cliente</title>
+    
+  </head>
+  <body onload="carregaMenu('../components/menuApp.html')">
+    
+    <div id="menu"></div>
+
+    <form>
+
+        <input type="text" id="codigo" placeholder="Codigo">
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="text" id="idade" placeholder="Idade">
+        <input type="text" id="telefone" placeholder="Telefone">
+        <input type="text" id="email" placeholder="E-mail">
+
+        <button type="button" onclick="gravarCliente()">Cadastrar</button>
+    
+    </form>
+
+    <script src="../../model/cliente.js"></script>
+    <script src="cliente_.js"></script>
+    <script src="../components/menu.js"></script>
+
+</body>
+</html>
